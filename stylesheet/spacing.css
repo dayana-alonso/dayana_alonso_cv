@@ -1,0 +1,26 @@
+/*PADDING & MARGINS */
+
+.mt-10{
+	margin-top: 10px;
+}
+
+.mt-30 {
+  margin-top:30px;
+}
+
+.mt-70{
+	margin-top: 70px;
+}
+
+.pr-30{
+	padding-right: 30px;
+}
+
+.mr-10{
+	margin-right: 10px;
+}
+
+.mr-420{
+	margin-right: 420px;
+}
+

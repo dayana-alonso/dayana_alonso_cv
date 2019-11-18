@@ -11,6 +11,12 @@
 	color: black;
 }
 
+.border_line {
+	color: #d2d6d2;
+}
+
+
+
 /* Style all font awesome icons */
 
 .fa {
@@ -30,3 +36,4 @@
 .fa:hover {
   opacity: 0.7;
 }
+

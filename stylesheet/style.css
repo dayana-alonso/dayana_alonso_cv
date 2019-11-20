@@ -20,8 +20,23 @@
 	width: 800px;
 	margin-left: 390px;
 }
-.sm-text {
-  font-size: 7px;
+
+.sm-text_skills {
+  font-size: 15px;
+  margin: 0px 3px 9px 0px !important;
+  padding: 10px !important;
+}
+
+.sm-text_project {
+  font-size: 15px;
+  margin: 2px !important;
+  padding: 7px !important;
+}
+
+.sm-text_work {
+  font-size: 15px;
+  margin: 2px !important;
+  padding: 7px !important;
 }
 
 /* Style all font awesome icons */

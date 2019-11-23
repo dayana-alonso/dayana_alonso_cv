@@ -46,7 +46,7 @@
 
 	.img_me {
 	  width: 80%;
-	  margin: 0px 0px 0px 30px;
+	  margin: 0px 30px 0px 30px;
 	}
 
 	.container_social_icon {
@@ -151,7 +151,7 @@
     width: 40%;
     padding: 0px;
     float: left;
-    margin-left: 45px;
+    margin-left: 50px;
     margin-top: 50px;
   }
 

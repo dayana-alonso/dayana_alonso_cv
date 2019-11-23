@@ -11,7 +11,6 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }*/
 
-
 	.header_mobile {
 	  display: none;
 	}
@@ -39,6 +38,7 @@
 	.img_info p {
 	  padding: 0px 20px 30px;
 	  font-family: arial;
+	  text-align: center;
 	  font-size: 15px;
 	  color: #111;
 		line-height: 24px;
@@ -144,7 +144,7 @@
 	 .img_info {
     width: 50%;
     float: right;
-    padding-top: 130px;
+    padding-top: 100px;
   }
 
   .img_me {

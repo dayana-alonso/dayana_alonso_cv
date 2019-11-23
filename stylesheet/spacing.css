@@ -20,6 +20,14 @@
 	padding-left: 30px;
 }
 
+.pt-40{
+	padding-top: 40px;
+}
+
+.pt-100{
+	padding-top: 100px;
+}
+
 .mr-6{
 	margin-right: 6px;
 }
@@ -30,9 +38,5 @@
 
 .mr-420{
 	margin-right: 420px;
-}
-
-.pt-40{
-	padding-top: 40px;
 }
 

@@ -9,24 +9,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
     <!-- stylehseet -->
     <link rel="stylesheet" type="text/css" href="stylesheet/fonts.css">
     <link rel="stylesheet" type="text/css" href="stylesheet/reset.css">
     <link rel="stylesheet" type="text/css" href="stylesheet/spacing.css">
     <link rel="stylesheet" type="text/css" href="stylesheet/color.css">
     <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/responsivness.css">
 
   	<title>CV || Dayana Alonso</title>
   </head>
-  <body class="bg-light">
 
-	<div class="container-fluid text-center mt-30">
+  <div class="container-fluid text-center mt-30">
 		<div>
-			<h1>Dayana Alonso </h1>
+			<h1 class="header_mobile">Dayana Alonso</h1>
 		</div>
-
-			<nav class=" nav a_nav justify-content-center mt-10">
+  <body>
+  	<div class="container box">
+  		<nav class="desktop_nav justify-content-center mt-10">
 	      <div class="nav nav-tabs" id="nav-tab" role="tablist">
 	        <a class="text-black-50" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
 	          <a href="index.html" class="nav-item nav-link text-secondary">About Me</a>
@@ -40,43 +40,53 @@
 	          <a href="contact.html" class="nav-item nav-link text-secondary">Contact</a>
 	      </div>
 	    </nav>
+	   </div>
 
+		<div class="wrapper container mobile_navbar box clearfix">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+	    </nav>
 
-			<div class="continer mt-30">
-				<div class="row">
-					<div class="col-md img-fluid">
-						<img src="img/dayana_alonso.jpg" height= 87%, width="31%" class="rounded-circle float-right">
-					</div>
-
-					<div class="col-md mt-30"><br>
-						<ol class="text-black-50 float-left mr-420">Full name:<span class="dob_text mr-10"> Dayana Alonso</span></ol>
-						<ol class="text-black-50 float-left mr-420">Email: <span class="dob_text mr-10">dayanalon83@gmail.com</span></ol>
-						<ol class="text-black-50 float-left mr-420">Citizenship: <span class="dob_text mr-10">Swedish</span></ol>
-						<ol class="text-black-50 float-left">Seeking role as: <span class="dob_text mr-10">Junior Software Developer (Ruby)</span></ol>
-					</div>
-				</div>
-
-				<hr class="container"> 
-				<div class="container">
-					<h3 class="text-secondary">About Me:</h3>
-					<p class="mt-10">
-						I am a proactive, energetic, tri-lingual person (fluent in Swedish, English, and Portuguese) with experience in a variety of roles across multiple sectors including Media, Games, Financial, Services Hospitality, and Health Care. I have exceptional communication and interpersonal skills.
-					</p><br>
+	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  	<nav class=" nav a_nav justify-content-center mt-10">
+		      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+		        	<ul>
+		        		<a class="text-black-50" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+		          	<a href="index_master.html" class="nav-item nav-link text-secondary">About Me</a>
+		        		<a class="text-black-50" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
+		          	<a href="skills.html" class="nav-item nav-link text-secondary">Skills</a>
+		        		<a class="text-black-50" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
+		          	<a href="work_experience.html" class="nav-item nav-link text-secondary">Work Experience</a>
+		        		<a class="text-black-50" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
+		          	<a href="projects.html" class="nav-item nav-link text-secondary">Projects</a>
+		        		<a class="text-black-50" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
+		          	<a href="contact.html" class="nav-item nav-link text-secondary">Contact</a>
+		        	</ul>
+		      </div>
+		     </nav>
+		   </div>
+			
+				<article class="img_info box">
+					<h2>Welcome to My Digital CV</h2>
 					<p>
-						I am activley seeking for an opportunity in the tech industry, as a Junior Developer, a role that will allow me to learn from the ground up and build a career in this industry and willing to apply myself 100% in this new opportunity. 
-						<br>
-					</p>
-	
-					<a href="https://github.com/dayana-alonso"> 
-						<i style="font-size:32px" target="_blank" class="fa fa-github"></i>
-					</a>
-								
-					<a href="https://www.linkedin.com/in/dayana-alonso">
-						<i style="font-size:32px" class="fa fa-linkedin"></i>
-					</a>	
-				</div>
-		</div>
+						I have taught myself Software Development through an internship at Codehance 2018-2019.<br> I have learned the fundamentals of HTML5, CSS3, OOP, MVC, Jekyll, Ruby, TDD (Test Driven Development). Languages such as Ruby on Rails and basic of Javascript and Python.
+				</article>
+				<img class="img_me" src="img/dayana_alonso.jpg" alt="Dayana Alonso">
+		</div> 
 	</div>
+		 
+   <hr class="hr_line mt-30 box">
+    <div class="container_social_icon box">
+      <a href="https://github.com/dayana-alonso"> 
+        <i style="font-size:32px" target="_blank" class="fa fa-github"></i>
+      </a>
+              
+      <a href="https://www.linkedin.com/in/dayana-alonso">
+        <i style="font-size:32px" class="fa">&#xf0e1;</i>
+      </a> 
+    </div>
 
 
     <!-- Optional JavaScript -->

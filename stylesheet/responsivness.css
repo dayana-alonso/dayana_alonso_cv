@@ -1,0 +1,170 @@
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+
+	.header_mobile {
+	  display: none;
+	}
+
+	.wrapper {
+  	width: 100%;
+	}	
+
+	.img_info {
+	  width: 100%;
+	}
+
+	.desktop_nav{
+		display: none;
+	}
+
+	.img_info h2 {
+	  padding: 30px 20px 30px;
+	  font-family: arial;
+	  font-size: 30px;
+	  color: #111;
+	  line-height: 44px;
+	}
+
+	.img_info p {
+	  padding: 0px 20px 30px;
+	  font-family: arial;
+	  font-size: 15px;
+	  color: #111;
+		line-height: 24px;
+	}
+
+	.img_me {
+	  width: 80%;
+	  margin: 0px 0px 0px 30px;
+	}
+
+	.container_social_icon {
+  	width: 100%;
+  	text-align: center;
+  }
+
+	.hr_line {
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+
+  
+	.header_mobile {
+	  display: block !important;
+	}
+
+  .img-banner {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .mobile_navbar{
+		display: block;
+	}
+
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .desktop_nav{
+		display: block;
+	}
+
+  .img_info h2 {
+    padding: 20px 0px 0px;
+  }
+
+  .img_info p {
+    padding: 20px 0px 0px;
+    font-size: 60px;
+  }
+
+  .img_me {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .container_social_icon {
+  	width: 100%;
+  	text-align: center;
+  }
+
+	.hr_line {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/*// Large devices (desktops, 1000px and up)*/
+@media only screen and (min-width: 1000px) {
+
+ .header_mobile {
+	  display: block !important;
+	}
+
+ .wrapper {
+    width: 1000px;
+  }
+
+	.desktop_nav{
+		display: block;
+		text-align: center;
+		padding-left: 250px;
+	}
+
+
+  .img_info h2 {
+    padding: 20px 0px 0px 30px;
+  
+  }
+
+  .img_info p {
+    padding: 20px 0px 20px 30px;
+    
+  }
+
+	 .img_info {
+    width: 50%;
+    float: right;
+    padding-top: 130px;
+  }
+
+  .img_me {
+    width: 40%;
+    padding: 0px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 50px;
+  }
+
+  .container_social_icon {
+  	width: 100%;
+  	text-align: center;
+	}
+
+	.hr_line {
+		width: 100%;
+		text-align: center;
+   	margin-top: 590px;
+
+	}
+}
+

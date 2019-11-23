@@ -2,6 +2,15 @@
   border:1px red dotted;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ul li {
+  list-style: none;>
+}
+
 .a_nav a{
 	text-decoration: none !important;
 	color: black;
@@ -15,28 +24,15 @@
 	color: #d2d6d2;
 }
 
-.container_project {
-	text-align: center;
-	width: 800px;
-	margin-left: 390px;
+.sm-text {
+  font-size: 15px;
+  margin: 0px 0px 9px 0px !important;
+  padding: 0px 10px !important;
 }
 
-.sm-text_skills {
-  font-size: 15px;
-  margin: 0px 3px 9px 0px !important;
-  padding: 10px !important;
-}
-
-.sm-text_project {
-  font-size: 15px;
-  margin: 2px !important;
-  padding: 7px !important;
-}
-
-.sm-text_work {
-  font-size: 15px;
-  margin: 2px !important;
-  padding: 7px !important;
+.container_work{
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 /* Style all font awesome icons */

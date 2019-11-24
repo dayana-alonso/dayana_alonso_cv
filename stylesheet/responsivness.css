@@ -127,7 +127,6 @@
 	.desktop_nav{
 		display: block;
 		text-align: center;
-		padding-left: 250px;
 	}
 
 
@@ -163,7 +162,7 @@
 	.hr_line {
 		width: 100%;
 		text-align: center;
-   	margin-top: 590px;
+   	margin-top: 200px;
 
 	}
 }
